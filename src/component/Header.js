@@ -1,5 +1,5 @@
 import React from "react";
-import {  Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -22,7 +22,7 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto mt-2 mt-lg-0 ">
-              <li className="nav-item"  >
+              <li className="nav-item">
                 <Link className="nav-link" aria-current="page" to="/">
                   Home
                 </Link>
@@ -32,11 +32,31 @@ const Header = () => {
                   About
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/">
-                  Services
-                </Link>
-              </li>
+
+              <div className="dropdown">
+                <button
+                  className="btn btn-secondary dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  SERVICES
+                </button>
+                <ul className="dropdown-menu">
+                  <li>
+                    <Link to={"/abc"} className="dropdown-item">
+                      Services1
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/abc" className="dropdown-item">
+                      Services2
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+
               <li className="nav-item">
                 <Link
                   className="nav-link"
