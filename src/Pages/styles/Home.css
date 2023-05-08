@@ -1,0 +1,43 @@
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 10%;
+}
+
+.Headline{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 10px 50px;
+}
+.Headline h1{
+    font-size: 50px;
+}
+.Headline p{
+    font-size: 21px;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.second{
+    background-color: rgb(56, 56, 137);
+    color: aliceblue;
+    padding: 1% 15%;
+}
+.what{
+    margin-top: 3%;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+.what h3{
+    color: yellow;
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+.what p{
+    color: aliceblue;
+    font-size: 22px;
+    max-width: 80%;
+    padding-left: 10px;
+}
