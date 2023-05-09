@@ -21,7 +21,7 @@ const Contect = () => {
               <label>Email Adress<span>  *</span></label><br />
               <input type='email' placeholder='Email Adress' required/>
               <label>Phone Number<span>  *</span></label><br />
-              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder='1231231234' required />
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder='1234567890' required />
               <label>How did you find us ?<span>  *</span></label><br />
               <select required>
                 <option>From Google or other search engine</option>
