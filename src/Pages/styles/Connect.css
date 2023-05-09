@@ -1,0 +1,67 @@
+.con-head{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: xx-large;
+}
+.connect{
+    justify-content: center;
+    display: flex;
+    margin: 5% 0;
+}
+.con-para{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8%;
+    max-width: 400px;
+    font-size: 25px;
+    color: rgb(124, 123, 123);
+}
+
+
+.con-form label{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(66, 65, 65);
+}
+.con-form span{
+    color: red;
+}
+.con-form input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5%;
+    border-width: 2px;
+}
+.con-form select{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5%;
+    border-width: 2px;
+}
+.con-form textarea{
+    width: 100%;
+    height: 90px;
+    border-width: 2px;
+    border-style: double;
+}
+.con-form button{
+    width: 40%;
+    height: 40px;
+    border-width: 2px;
+    font-size: large;
+    background-color: rgb(166, 165, 164);
+    font-weight: bold;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    .connect{
+        justify-content: center;
+        display: block;
+        margin-top: 5%;
+        padding: 0 5%;
+    }
+}
