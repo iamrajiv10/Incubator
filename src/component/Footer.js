@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import './Footer.css'
+import "./Footer.css";
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -17,7 +18,7 @@ const Footer = () => {
               possimus dolore nisi modi consequuntur natus doloribus. Totam
               cumque laudantium voluptatum nobis?
             </p>
-          </div> 
+          </div>
           <div className="col">
             <h3>Office</h3>
             <p>gali road</p>
@@ -30,25 +31,25 @@ const Footer = () => {
             <h3>Quick Links</h3>
             <ul>
               <li>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="/">Services</a>
+                <Link to="/">Services</Link>
               </li>
               <li>
-                <a href="/">About</a>
+                <Link to="/">About</Link>
               </li>
               <li>
-                <a href="/">Features</a>
+                <Link to="/">Features</Link>
               </li>
               <li>
-                <a href="/">Contect Us</a>
+                <Link to="/contact">Contect Us</Link>
               </li>
             </ul>
           </div>
           <div className="col">
             <h3>NewsLetter</h3>
-            <form>
+            <form className="formFooter">
               <i className="far" />
               <input type="email" placeholder="Enter Your email id" required />
               <button type="submit">Submit</button>
@@ -62,7 +63,7 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <p className="copyRight">INCUBATOR ©2023- ALL RIGHT RESERVED</p>
+        <p className="copyRight">INCUBATOR ©2023 - All Right Reserved</p>
       </footer>
     </div>
   );

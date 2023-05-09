@@ -69,7 +69,7 @@ ul li a {
   color: #fff;
 }
 
-form {
+.formFooter {
   padding-bottom: 15px;
   display: flex;
   align-items: center;
@@ -78,12 +78,12 @@ form {
   margin-bottom: 20px;
 }
 
-form .far {
+.formFooter .far {
   font-size: 18px;
   margin-right: 10px;
 }
 
-form input {
+.formFooter input {
   width: 100%;
   background: #b0b483;
   color: #6158c8;
@@ -95,7 +95,7 @@ form input {
   margin-right: 10px;
 }
 
-form button {
+.formFooter button {
   width: 111px;
   background: #b0b483;
   color: #6158c8;
@@ -130,5 +130,5 @@ hr {
 
 .copyRight {
   text-align: right;
-  margin-right: 50px;
+  margin-right: 150px;
 }
