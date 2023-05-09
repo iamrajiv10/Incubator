@@ -33,26 +33,42 @@ const Header = () => {
                 </Link>
               </li>
 
-              <div className="dropdown">
-                <button
-                  className="btn btn-secondary dropdown-toggle"
-                  type="button"
-                  id="dropdownMenuButton1"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  SERVICES
-                </button>
-                <ul className="dropdown-menu">
-                  <li>
-                    <Link to={"/abc"} className="dropdown-item">
-                      Services1
+              <div
+                className="collapse navbar-collapse"
+                id="navbarNavDarkDropdown"
+              >
+                <ul className="navbar-nav">
+                  <li className="nav-item dropdown">
+                    <Link
+                      className="nav-link dropdown-toggle"
+                      to="/"
+                      id="navbarDarkDropdownMenuLink"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Services
                     </Link>
-                  </li>
-                  <li>
-                    <Link to="/abc" className="dropdown-item">
-                      Services2
-                    </Link>
+                    <ul
+                      className="dropdown-menu dropdown-menu-dark"
+                      aria-labelledby="navbarDarkDropdownMenuLink"
+                    >
+                      <li>
+                        <Link className="dropdown-item" to="/">
+                          Services1
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item" to="/">
+                          Services2
+                        </Link>
+                      </li>
+                      <li>
+                        <Link className="dropdown-item" to="/">
+                          Something else here
+                        </Link>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </div>
