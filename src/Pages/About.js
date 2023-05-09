@@ -1,6 +1,11 @@
 import React from 'react'
 import './styles/About.css'
 import Layout from '../component/Layout'
+import positivity from './img/positiv.png'
+import proactivity from './img/proactive.png'
+import quality from './img/quality.png'
+import teamwork from './img/teamwork.png'
+import communi from './img/communication.png'
 
 const About = () => {
   return (
@@ -10,23 +15,23 @@ const About = () => {
           <h3>  Our Core values</h3>
         <div className='values'>
           <div className='contnt'>
-            <img src='https://cdn-icons-png.flaticon.com/512/2244/2244612.png' />
+            <img src={positivity} />
             <h5>Positivity is CENTRAL</h5>
           </div>
           <div className='contnt'>
-            <img src='https://cdn-icons-png.flaticon.com/512/1017/1017339.png' />
+            <img src={proactivity} />
             <h5>Proactivity earns BUSINESS</h5>
           </div>
           <div className='contnt'>
-            <img src='https://cdn-icons-png.flaticon.com/512/3339/3339845.png' />
+            <img src={quality} />
             <h5>Quality brings LONGEVITY</h5>
           </div>
           <div className='contnt'>
-            <img src='https://cdn-icons-png.flaticon.com/512/3131/3131333.png' />
+            <img src={teamwork} />
             <h5>Teamwork DELIVERS</h5>
           </div>
           <div className='contnt'>
-            <img src='https://www.freeiconspng.com/uploads/business-meeting-conversation-job-interview-teamwork-icon-13.png' />
+            <img src={communi} />
             <h5>Communication gives RESULTS</h5>
           </div>
         </div>
