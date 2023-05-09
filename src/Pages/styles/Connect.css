@@ -1,49 +1,54 @@
 .con-head{
-    margin-left: 10%;
-    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
     font-size: xx-large;
+    background-color: rgb(56, 56, 137);
+    color: white;
+    padding: 5%;
+    background-image: url(https://thumbs.gfycat.com/ZanyGrimGodwit-max-1mb.gif);
+    background-blend-mode: screen;
+}
+.con-head h1{
+    text-shadow: 8px 8px 16px rgba(0, 0, 0, 1);
 }
 .connect{
     justify-content: center;
     display: flex;
-    margin: 5% 0;
+    margin: 5% 5%;
 }
 .con-para{
     display: grid;
     justify-content: center;
     align-items: center;
-    margin-right: 8%;
-    max-width: 400px;
+    margin-left: 5%;
+    max-width: 500px;
     font-size: 25px;
-    color: rgb(124, 123, 123);
+    color: white;
+    background-color: rgb(56, 56, 137);
+    padding: 3%;
 }
 
 
-.con-form label{
-    font-size: large;
-    font-weight: bold;
-    color: rgb(66, 65, 65);
-}
-.con-form span{
-    color: red;
-}
 .con-form input{
-    width: 100%;
+    width: 45%;
     height: 40px;
     margin-bottom: 5%;
-    border-width: 2px;
+    margin-right: 5%;
+    border: none;
+  border-bottom: 2px solid black;
 }
 .con-form select{
-    width: 100%;
+    width: 95%;
     height: 40px;
     margin-bottom: 5%;
-    border-width: 2px;
+    border: none;
+  border-bottom: 2px solid black;
 }
 .con-form textarea{
-    width: 100%;
+    width: 95%;
     height: 90px;
-    border-width: 2px;
-    border-style: double;
+    border: none;
+  border-bottom: 2px solid black;
 }
 .con-form button{
     width: 40%;
