@@ -41,7 +41,20 @@
 
 
 @media only screen and (max-width: 768px) {
+    .core{
+        padding-left: 5px;
+    }
     .values {
+        margin: 0;
         display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .contnt{
+        margin: 20% 0;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 }

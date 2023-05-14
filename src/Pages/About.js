@@ -1,11 +1,11 @@
 import React from 'react'
 import './styles/About.css'
 import Layout from '../component/Layout'
-import positivity from './img/positiv.png'
-import proactivity from './img/proactive.png'
-import quality from './img/quality.png'
-import teamwork from './img/teamwork.png'
-import communi from './img/communication.png'
+import positivity from '../img/positiv.png'
+import proactivity from '../img/proactive.png'
+import quality from '../img/quality.png'
+import teamwork from '../img/teamwork.png'
+import communi from '../img/communication.png'
 
 const About = () => {
   return (

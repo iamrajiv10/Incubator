@@ -22,26 +22,51 @@
 .second{
     background-color: rgb(56, 56, 137);
     color: aliceblue;
-    padding: 1% 15%;
+    justify-content: center;
+    text-align: center;
+    padding: 3% 0;
+}
+.second h1{
+    color: yellow;
+    font-size: 60px;
+    font-family: fantasy;
+    margin-bottom: 0;
+}
+.second p{
+    color: yellow;
+    font-size: small;
 }
 .what{
-    margin-top: 3%;
-    justify-content: left;
-    align-items: left;
-    text-align: left;
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(110, 110, 110);
 }
-.what h3{
-    color: yellow;
-    font-size: 18px;
-    margin-bottom: 2%;
-    padding-left: 25px;
-}
-.what p{
-    color: aliceblue;
-    font-size: 22px;
-    max-width: 80%;
 
+.srvcblock{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    width: 25%;
+    margin: 2%  0 2%  2%;
 }
+.srvcblock img{
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    max-height: 140px;
+}
+.srvcblock h5{
+    margin-top: 5%;
+    color: rgb(174, 171, 171);
+    font-weight: bold;
+}
+.srvcblock p{
+    color: white;
+}
+
 
 
 @media only screen and (max-width: 768px){
@@ -52,4 +77,18 @@
         width: 100%;
         margin: 0;
     }
+    .what{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .srvcblock{
+        width: 90%;
+        margin: 5%;
+    }
+    .srvcblock img{
+        width: 100%;
+        margin-top: 5%
+    };
 }

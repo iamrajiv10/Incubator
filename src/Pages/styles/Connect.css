@@ -14,7 +14,7 @@
 .connect{
     justify-content: center;
     display: flex;
-    margin: 5% 5%;
+    margin: 7% 5%;
 }
 .con-para{
     display: grid;
@@ -68,5 +68,8 @@
         display: block;
         margin-top: 5%;
         padding: 0 5%;
+    }
+    .con-form{
+        margin-bottom: 10%;
     }
 }
