@@ -56,6 +56,16 @@
     box-shadow: 10px 10px 5px lightblue;
     transform: scale(1.1)
 }
+.srvcblock ul{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.srvcblock span{
+    font-size: 25px;
+    margin-left: 5%;
+}
 .srvcblock img{
     width: 100%;
     max-width: 300px;

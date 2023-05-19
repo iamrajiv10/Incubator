@@ -29,7 +29,7 @@ const Home = () => {
                         <ul>
                         <li>
                         <Link className="dropdown-item" to="/webdev">
-                          Learn More 
+                          Learn More <span>&#8594;</span>
                         </Link>
                         </li>
                         </ul>
@@ -43,7 +43,7 @@ const Home = () => {
                         <ul>
                         <li>
                         <Link className="dropdown-item" to="/webdev">
-                          Learn More 
+                          Learn More <span>&#8594;</span>
                         </Link>
                         </li>
                         </ul>
@@ -57,7 +57,7 @@ const Home = () => {
                         <ul>
                         <li>
                         <Link className="dropdown-item" to="/webdev">
-                          Learn More 
+                          Learn More <span>&#8594;</span>
                         </Link>
                         </li>
                         </ul>
@@ -70,7 +70,7 @@ const Home = () => {
                         </p><ul>
                         <li>
                         <Link className="dropdown-item" to="/webdev">
-                          Learn More 
+                          Learn More <span>&#8594;</span>
                         </Link>
                         </li>
                         </ul>
