@@ -6,8 +6,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <footer>
-        <div className="row">
-          <div className="col">
+      <div className="foterhd">
             <img
               src="https://images.pexels.com/photos/1183434/pexels-photo-1183434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               className="logo"
@@ -19,6 +18,8 @@ const Footer = () => {
               cumque laudantium voluptatum nobis?
             </p>
           </div>
+        <div className="row">
+          
           <div className="col">
             <h3>Office</h3>
             <p>gali road</p>

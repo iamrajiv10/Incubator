@@ -14,18 +14,26 @@ footer {
   bottom: 0;
   background: linear-gradient(to right, #00093c, #2d0b00);
   color: #fff;
-  padding: 100px 0 30px;
+  padding: 70px 0 30px;
   font-size: 13px;
   line-height: 20px;
 }
 
 footer img {
-  height: 40px;
-  width: 40px;
+  height: 70px;
+  width: 70px;
   margin-bottom: 30px;
   border-radius: 50%;
+  font-size: larger;
+  margin-right: 5%;
 }
 
+.foterhd{
+  display: flex;
+  margin: 0 10%;
+  width: 60%;
+  font-size: larger;
+}
 .row {
   width: 85%;
   margin: auto;
