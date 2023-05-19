@@ -31,13 +31,22 @@ const Home = () => {
                         <Link className="dropdown-item" to="/webdev">
                           Learn More 
                         </Link>
-                      </li>
+                        </li>
                         </ul>
                     </div>
                     <div className="srvcblock">
                         <img src="https://www.nicepng.com/png/detail/252-2527712_guide-to-mobile-app-development-mobile-app-development.png"/>
                         <h5>App Development</h5>
-                        <p>Mobile app development is the act or process by which a mobile app is developed for one or more mobile devices, which can include personal digital assistants, enterprise digital assistants, or mobile phones.</p>
+                        <p>
+                            Mobile app development is the act or process by which a mobile app is developed for one or more mobile devices, which can include personal digital assistants, enterprise digital assistants, or mobile phones.
+                        </p>
+                        <ul>
+                        <li>
+                        <Link className="dropdown-item" to="/webdev">
+                          Learn More 
+                        </Link>
+                        </li>
+                        </ul>
                     </div>
                     <div className="srvcblock">
                         <img src="https://cdn.wedevs.com/uploads/2020/06/Business-Branding-feature-Images.png"/>
@@ -45,13 +54,26 @@ const Home = () => {
                         <p>
                         Branding is the process of creating a distinct identity for a business in the mind of your target audience and consumers. At the the most basic level, branding is made up of a company's logo, visual design, mission, and tone of voice.
                         </p>
+                        <ul>
+                        <li>
+                        <Link className="dropdown-item" to="/webdev">
+                          Learn More 
+                        </Link>
+                        </li>
+                        </ul>
                     </div>
                     <div className="srvcblock">
                         <img src="https://napoleoncat.com/wp-content/uploads/2020/09/social-media-strategies-for-small-business-featured-image.jpg"/>
                         <h5>Social Media Marketing</h5>
                         <p>
                         Social media marketing is the use of social media platforms and websites to promote a product or service. Although the terms e-marketing and digital marketing are still dominant in academia, social media marketing is becoming more popular for both practitioners and researchers.
-                        </p>
+                        </p><ul>
+                        <li>
+                        <Link className="dropdown-item" to="/webdev">
+                          Learn More 
+                        </Link>
+                        </li>
+                        </ul>
                     </div>
                 </div>
                 <div>
