@@ -40,9 +40,8 @@
     margin: 3%;
     display: flex;
     justify-content: center;
-    align-items: center;
     text-align: center;
-    background-color: rgb(110, 110, 110);
+    /* background-color: rgb(110, 110, 110); */
 }
 
 .srvcblock{
@@ -50,14 +49,20 @@
     align-items: center;
     text-align: left;
     width: 25%;
-    margin: 2%  0 2%  2%;
+    margin: 0 2% ;
+    margin-top: 2%;
+}
+.srvcblock:hover{
+    box-shadow: 10px 10px 5px lightblue;
+    transform: scale(1.1)
 }
 .srvcblock img{
-    justify-content: center;
     width: 100%;
     max-width: 300px;
     max-height: 140px;
+    border: 2px solid rgb(118, 117, 117);
 }
+
 .srvcblock h5{
     margin-top: 5%;
     color: rgb(174, 171, 171);
@@ -86,6 +91,10 @@
     .srvcblock{
         width: 90%;
         margin: 5%;
+    }
+    .srvcblock:hover{
+        box-shadow: none;
+        transition: none;
     }
     .srvcblock img{
         width: 100%;
