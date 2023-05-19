@@ -42,7 +42,7 @@ const Home = () => {
                         </p>
                         <ul>
                         <li>
-                        <Link className="dropdown-item" to="/webdev">
+                        <Link className="dropdown-item" to="/appdev">
                           Learn More <span>&#8594;</span>
                         </Link>
                         </li>
@@ -56,7 +56,7 @@ const Home = () => {
                         </p>
                         <ul>
                         <li>
-                        <Link className="dropdown-item" to="/webdev">
+                        <Link className="dropdown-item" to="/business">
                           Learn More <span>&#8594;</span>
                         </Link>
                         </li>
@@ -69,7 +69,7 @@ const Home = () => {
                         Social media marketing is the use of social media platforms and websites to promote a product or service. Although the terms e-marketing and digital marketing are still dominant in academia, social media marketing is becoming more popular for both practitioners and researchers.
                         </p><ul>
                         <li>
-                        <Link className="dropdown-item" to="/webdev">
+                        <Link className="dropdown-item" to="/marketing">
                           Learn More <span>&#8594;</span>
                         </Link>
                         </li>
